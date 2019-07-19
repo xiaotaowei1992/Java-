@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class BooleadLockTest {
 	//定义BooleanLock
-	private final Lock lock = new BooleadLock();
+	private final Lock_96 lock = new BooleadLock_96();
 	//使用try...finally..语句块确保lock的每次都能被正确释放
 	public void syncMethod() {
 		try {
